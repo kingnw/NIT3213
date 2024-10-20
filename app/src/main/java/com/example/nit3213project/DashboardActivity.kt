@@ -31,7 +31,7 @@ class DashboardActivity : AppCompatActivity() {
     private fun fetchDashboardData(keypass: String) {
         // Mocking API response data with architectural details
         val mockEntities = listOf(
-            Entity("Eiffel Tower", "Gustave Eiffel", "Paris, France", 1889, "Structural Expressionism", 324, "An iron lattice tower on the Champ de Mars in Paris, named after the engineer Gustave Eiffel."),
+            Entity("Eiffel Tower", "Gustave Eiffel", "Paris, France", 1889, "Structural Expressionism", 324, "An iron lattice tower on the Champ de Mars in Paris, named after the engineer Gustave Eiffel.", R.drawable.dashboardimage),
             Entity("Taj Mahal", "Ustad Ahmad Lahauri", "Agra, India", 1653, "Mughal Architecture", 73, "An ivory-white marble mausoleum in memory of Shah Jahan’s wife, Mumtaz Mahal."),
             Entity("Sydney Opera House", "Jørn Utzon", "Sydney, Australia", 1973, "Expressionist Modernism", 65, "A performing arts center at Sydney Harbour, and a distinctive building."),
             Entity("Fallingwater", "Frank Lloyd Wright", "Pennsylvania, USA", 1939, "Organic Architecture", 30, "A house designed by Frank Lloyd Wright, partly built over a waterfall."),
