@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">NIT3213 Project</string>
-</resources>
+
+
+        <string name="dashboardimages.jpg">A descriptive text for the dashboard image</string>
+    </resources>
+
